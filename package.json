@@ -1,0 +1,16 @@
+{
+  "name": "therealone",
+  "version": "1.0.0",
+  "description": "My Personal Website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js, hbs"
+  },
+  "author": "Toh3r",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0"
+  }
+}
